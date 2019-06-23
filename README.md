@@ -1,6 +1,6 @@
 # Leetcode
 
-> C++、Go、[Blog](%5Bhttps://liu-yt.github.io/categories/%E7%AE%97%E6%B3%95-leetcode/%5D(https://liu-yt.github.io/categories/%E7%AE%97%E6%B3%95-leetcode/)
+> C++、Go、[Blog](https://liu-yt.github.io/categories/%E7%AE%97%E6%B3%95-leetcode/%5D(https://liu-yt.github.io/categories/%E7%AE%97%E6%B3%95-leetcode/)
 
 | #   | Title                                                                                                                                             | Difficulty | Solution                                                                    |
 |:---:|:------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |:--------------------------------------------------------------------------- |
