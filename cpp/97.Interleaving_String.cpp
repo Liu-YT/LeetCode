@@ -22,13 +22,3 @@ public:
 		return dp[s1.size()][s2.size()];
     }
 };
-
-
-// DFS
-class Solution {
-public:
-    bool isInterleave(string s1, string s2, string s3) {
-    	if (s1.size() + s2.size() != s3.size())	return false;
-    	
-    }
-};

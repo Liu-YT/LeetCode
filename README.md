@@ -1,6 +1,8 @@
 # Leetcode
 
-> C++、Go、[Blog](https://liu-yt.github.io/categories/%E7%AE%97%E6%B3%95-leetcode/%5D(https://liu-yt.github.io/categories/%E7%AE%97%E6%B3%95-leetcode/)
+>  [Blog](https://liu-yt.github.io/categories/%E7%AE%97%E6%B3%95-leetcode/)
+
+## Algorithm
 
 | #   | Title                                                                                                                                             | Difficulty | Solution                                                                    |
 |:---:|:------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |:--------------------------------------------------------------------------- |
@@ -84,3 +86,23 @@
 | 78  | [Subsets](https://leetcode.com/problems/subsets/)                                                                                                 | `Medium`   | [C++](./cpp/78.Subsets.cpp)                                                 |
 | 79  | [Word Search](https://leetcode.com/problems/word-search/)                                                                                         | `Medium`   | [C++](./cpp/79.WordSearch.cpp)                                              |
 | 80  | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)                                   | `Medium`   | [C++](./cpp/80.Remove_Duplicates_from_Sorted_Array_II.cpp)                  |
+| 81  | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)                                             | `Medium`   | [Go](./go/81.Search_in_Rotated_Sorted_Array_II.go)                          |
+| 82  | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)                                     | `Medium`   | [Go](./go/82.Remove_Duplicates_from_Sorted_List_II.go)                      |
+| 83  | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)                                           | `Easy`     | [Go](./go/83.Remove_Duplicates_from_Sorted_List.go)                         |
+| 84  | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)                                                   | `Hard`     | [Go](./go/84.Largest_Rectangle_in_Histogram.go)                             |
+| 85  | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)                                                                             | `Hard`     | [Go](./go/85.Maximal_Rectangle.go)                                          |
+| 86  | [Partition List](https://leetcode.com/problems/partition-list/)                                                                                   | `Medium`   | [Go](./go/86.Partition_List.go)                                             |
+| 87  | [Scramble String](https://leetcode.com/problems/scramble-string/)                                                                                 | `Hard`     | [C++](./cpp/87.Scramble_String.cpp)                                         |
+| 88  | [Merge Sorted Array](./go/https://leetcode.com/problems/merge-sorted-array/)                                                                      | `Easy`     | [Go](./go/88.Merge_Sorted_Array.go)                                         |
+| 89  | [Gray Code](https://leetcode.com/problems/gray-code/)                                                                                             | `Medium`   | [C++](./cpp/89.Gray_Code.cpp)                                               |
+| 90  | [Subsets II](https://leetcode.com/problems/subsets-ii/)                                                                                           | `Medium`   | [C++](./cpp/90.Subsets_II.cpp)                                              |
+| 91  | [Decode Ways](https://leetcode.com/problems/decode-ways/)                                                                                         | `Medium`   | [C++](./cpp/91.Decode_Ways.cpp)                                             |
+| 92  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)                                                                   | `Medium`   | [Go](./go/92.Reverse_Linked_List_II.go)                                     |
+| 93  | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)                                                                       | `Medium`   | [Go](./go/93.Restore_IP_Addresses.go)                                       |
+| 94  | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                                                     | `Medium`   | [Go](./go/94.Binary_Tree_Inorder_Traversal.go)                              |
+| 95  | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)                                                     | `Medium`   | [C++](./cpp/95.Unique_Binary_Search_Trees_II.cpp)                           |
+| 96  | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)                                                           | `Medium`   | [Go](./go/96.Unique_Binary_Search_Trees.go)                                 |
+| 97  | [Interleaving String](https://leetcode.com/problems/interleaving-string/)                                                                         | `Hard`     | [C++](./cpp/97.Interleaving_String.cpp)                                     |
+| 98  | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)                                                         | `Medium`   | [Go](./go/98.Validate_Binary_Search_Tree.go)                                |
+| 99  | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)                                                           | `Hard`     | [Go](./go/99.Recover_Binary_Search_Tree.go)                                 |
+| 100 | [Same Tree](https://leetcode.com/problems/same-tree/)                                                                                             | `Easy`     | [Go](./go/100.Same_Tree.go)                                                 |
