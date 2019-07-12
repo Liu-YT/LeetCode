@@ -1,3 +1,4 @@
+/* solution 1 */
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -27,6 +28,8 @@ public:
     }
 };
 
+
+/*  solution 2 */
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
