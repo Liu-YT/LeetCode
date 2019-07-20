@@ -19,6 +19,6 @@ public:
                 }
 			}
 		}
-		return cut[0]-1;
+		return cut[0];
     }
 };
