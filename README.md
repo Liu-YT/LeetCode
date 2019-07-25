@@ -5,7 +5,7 @@
 ## Algorithm
 
 | #   | Title                                                                                                                                                   | Difficulty | Solution                                                                                     |
-|:---:|:------------------------------------------------------------------------------------------------------------------------------------------------------- |:----------:|:--------------------------------------------------------------------------------------------:|
+|:---:| ------------------------------------------------------------------------------------------------------------------------------------------------------- |:----------:|:--------------------------------------------------------------------------------------------:|
 | 1   | [Two Sum](https://leetcode.com/problems/two-sum/)                                                                                                       | `Easy`     | [C++](./cpp/1.Two_Sum.cpp)                                                                   |
 | 2   | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                                                                       | `Medium`   | [C++](./cpp/2.Add_Two_Numbers.cpp)                                                           |
 | 3   | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)                         | `Medium`   | [C++](./cpp/3.Longest_Substring_Without_Repeating_Characters.cpp)                            |
@@ -146,6 +146,26 @@
 | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)                                                           | `Medium`   | [C++](./cpp/138.Copy_List_with_Random_Pointer.cpp)                                           |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/)                                                                                                 | `Medium`   | [C++](./cpp/139.Word_Break.cpp)                                                              |
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/)                                                                                           | `Hard`     | [C++](./cpp/140.Word_Break_II.cpp)                                                           |
+| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                                                                                   | `Easy`     | [C++](./cpp/141.Linked_List_Cycle.cpp)                                                       |
+| 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)                                                                             | `Medium`   | [C++](./cpp/142.Linked_List_Cycle_II.cpp)                                                    |
+| 143 | [Reorder List](https://leetcode.com/problems/reorder-list/)                                                                                             | `Medium`   | [C++](./cpp/143.Reorder_List.cpp)                                                            |
+| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)                                                         | `Medium`   | [Go](./go/144.Binary_Tree_Preorder_Traversal.go)                                             |
+| 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)                                                       | `Hard`     | [Go](./go/145.Binary_Tree_Postorder_Traversal.go)                                            |
+| 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/)                                                                                                   | `Medium`   | [C++](./cpp/146.LRU_Cache.cpp)                                                               |
+| 147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)                                                                               | `Medium`   | [C++](./cpp/147.Insertion_Sort_List.cpp)                                                     |
+| 148 | [Sort List](https://leetcode.com/problems/sort-list/)                                                                                                   | `Medium`   | [C++](./cpp/148.Sort_List.cpp)                                                               |
+| 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)                                                                             | `Hard`     | [C++](./cpp/149.Max_Points_on_a_Line.cpp)                                                    |
+| 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)                                                     | `Medium`   | [Go](./go/150.Evaluate_Reverse_Polish_Notation.go)                                           |
+| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)                                                                   | `Medium`   | [Go](./go/151.Reverse_Words_in_a_String.go)                                                  |
+| 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)                                                                     | `Medium`   | [C++](./cpp/152.Maximum_Product_Subarray.cpp)                                                |
+| 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)                                             | `Medium`   | [Go](./go/153.Find_Minimum_in_Rotated_Sorted_Array.go)                                       |
+| 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)                                       | `Hard`     | [Go](./go/154.Find_Minimum_in_Rotated_Sorted_Array_II.go)                                    |
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack/)                                                                                                   | `Easy`     | [C++](./cpp/155.Min_Stack.cpp)                                                               |
+| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)                                                     | `Easy`     | [Go](./go/160.Intersection_of_Two_Linked_Lists.go)                                           |
+| 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                                                                   | `Medium`   | [C++](./cpp/162.Find_Peak_Element.cpp)                                                       |
+| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/)                                                                                               | `Hard`     | [C++](./cpp/164.Maximum_Gap.cpp)                                                             |
+| 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)                                                                       | `Medium`   | [C++](./cpp/165.Compare_Version_Numbers.cpp)                                                 |
+| 166 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)                                                           | `Medium`   | [C++](./cpp/166.Fraction_to_Recurring_Decimal.cpp)                                           |
 
 ## Database
 
@@ -160,4 +180,52 @@
 | 182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)                                                     | `Easy`     | [sql](./sql/182.Duplicate_Emails.sql)                           |
 | 183 | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)                                   | `Easy`     | [sql](./sql/183.Customers_Who_Never_Order.sql)                  |
 | 184 | [Department Highest Salary](https://leetcode.com/problems/department-highest-salary/)                                   | `Medium`   | [sql](./sql/184.Department_Highest_Salary.sql)                  |
-| 185 | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)                           | `Hard`     | [sql](./sql/185. Department_Top_Three_Salaries.sql)             |
+| 185 | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)                           | `Hard`     | [sql](./sql/185.Department_Top_Three_Salaries.sql)              |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
