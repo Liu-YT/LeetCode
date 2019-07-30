@@ -5,7 +5,7 @@
 ## Algorithm
 
 | #   | Title                                                                                                                                                   | Difficulty | Solution                                                                                     |
-|:---:| ------------------------------------------------------------------------------------------------------------------------------------------------------- |:----------:|:--------------------------------------------------------------------------------------------:|
+|:---:|:------------------------------------------------------------------------------------------------------------------------------------------------------- |:----------:|:--------------------------------------------------------------------------------------------:|
 | 1   | [Two Sum](https://leetcode.com/problems/two-sum/)                                                                                                       | `Easy`     | [C++](./cpp/1.Two_Sum.cpp)                                                                   |
 | 2   | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                                                                       | `Medium`   | [C++](./cpp/2.Add_Two_Numbers.cpp)                                                           |
 | 3   | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)                         | `Medium`   | [C++](./cpp/3.Longest_Substring_Without_Repeating_Characters.cpp)                            |
@@ -166,6 +166,26 @@
 | 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/)                                                                                               | `Hard`     | [C++](./cpp/164.Maximum_Gap.cpp)                                                             |
 | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)                                                                       | `Medium`   | [C++](./cpp/165.Compare_Version_Numbers.cpp)                                                 |
 | 166 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)                                                           | `Medium`   | [C++](./cpp/166.Fraction_to_Recurring_Decimal.cpp)                                           |
+| 167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)                                                   | `Easy`     | [C++](./cpp/167.Two_Sum_II_Input_array_is_sorted.cpp)                                        |
+| 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)                                                                     | `Easy`     | [C++](./cpp/168.Excel_Sheet_Column_Title.cpp)                                                |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/)                                                                                     | `Easy`     | [C++](./cpp/169.Majority_Element.cpp)、[Go](./go/169.Majority_Element.go)                     |
+| 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)                                                                   | `Easy`     | [C++](./cpp/171.Excel_Sheet_Column_Number.cpp)                                               |
+| 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)                                                                   | `Easy`     | [C++](./cpp/172.Factorial_Trailing_Zeroes.cpp)                                               |
+| 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)                                                               | `Medium`   | [C++](./cpp/173.Binary_Search_Tree_Iterator.cpp)                                             |
+| 174 | [Dungeon Game](https://leetcode.com/problems/dungeon-game/)                                                                                             | `Hard`     | [C++](./cpp/174.Dungeon_Game.cpp)                                                            |
+| 179 | [Largest Number](https://leetcode.com/problems/largest-number/)                                                                                         | `Medium`   | [C++](./cpp/179.Largest_Number.cpp)                                                          |
+| 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)                                                                         | `Medium`   | [C++](./cpp/187.Repeated_DNA_Sequences.cpp)                                                  |
+| 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)                                                 | `Hard`     | [C++](./cpp/188.Best_Time_to_Buy_and_Sell_Stock_IV.cpp)                                      |
+| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/)                                                                                             | `Easy`     | [C++](./cpp/189.Rotate_Array.cpp)                                                            |
+| 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)                                                                                             | `Easy`     | [C++](./cpp/190.Reverse_Bits.cpp)                                                            |
+| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)                                                                                     | `Easy`     | [C++](./cpp/191.Number_of_1_Bits.cpp)                                                        |
+| 198 | [House Robber](https://leetcode.com/problems/house-robber/)                                                                                             | `Easy`     | [C++](./cpp/198.House_Robber.cpp)                                                            |
+| 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)                                                               | `Medium`   | [C++](./cpp/199.Binary_Tree_Right_Side_View.cpp)                                             |
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                                   | `Medium`   | [C++](./cpp/200.Number_of_Islands.cpp)                                                       |
+| 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)                                                             | `Medium`   | [C++](./cpp/201.Bitwise_AND_of_Numbers_Range.cpp)                                            |
+| 202 | [Happy Number](https://leetcode.com/problems/happy-number/)                                                                                             | `Easy`     | [C++](./cpp/202.Happy_Number.cpp)                                                            |
+| 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)                                                               | `Easy`     | [C++](./cpp/203.Remove_Linked_List_Elements.cpp)                                             |
+| 204 | [Count Primes](https://leetcode.com/problems/count-primes/)                                                                                             | `Easy`     | [C++](./cpp/204.Count_Primes.cpp)                                                            |
 
 ## Database
 
@@ -181,6 +201,93 @@
 | 183 | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)                                   | `Easy`     | [sql](./sql/183.Customers_Who_Never_Order.sql)                  |
 | 184 | [Department Highest Salary](https://leetcode.com/problems/department-highest-salary/)                                   | `Medium`   | [sql](./sql/184.Department_Highest_Salary.sql)                  |
 | 185 | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)                           | `Hard`     | [sql](./sql/185.Department_Top_Three_Salaries.sql)              |
+| 196 | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)                                       | `Easy`     | [sql](./sql/196.Delete_Duplicate_Emails.sql)                    |
+| 197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature/)                                                 | `Easy`     | [sql](./sql/197.Rising_Temperature.sql)                         |
+| 262 | [Trips and Users](https://leetcode.com/problems/trips-and-users/)                                                       | `Hard`     | [sql](./sql/262.Trips_and_Users.sql)                            |
+| 595 | [Big Countries](https://leetcode.com/problems/big-countries/)                                                           | `Easy`     | [sql](./sql/595.Big_Countries.sql)                              |
+| 596 | [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/)                             | `Easy`     | [sql](./sql/596.Classes_More_Than_5_Students.sql)               |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
