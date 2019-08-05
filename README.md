@@ -186,6 +186,26 @@
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/)                                                                                             | `Easy`     | [C++](./cpp/202.Happy_Number.cpp)                                                            |
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)                                                               | `Easy`     | [C++](./cpp/203.Remove_Linked_List_Elements.cpp)                                             |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/)                                                                                             | `Easy`     | [C++](./cpp/204.Count_Primes.cpp)                                                            |
+| 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)                                                                                 | `Easy`     | [C++](./cpp/205.Isomorphic_Strings.cpp)                                                      |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                                                                               | `Easy`     | [C++](./cpp/206.Reverse_Linked_List.cpp)                                                     |
+| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/)                                                                                       | `Medium`   | [C++](./cpp/207.Course_Schedule.cpp)                                                         |
+| 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)                                                               | `Medium`   | [C++](./cpp/208.Implement_Trie_Prefix_Tree.cpp)                                              |
+| 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)                                                                   | `Medium`   | [Go](./go/209.Minimum_Size_Subarray_Sum.go)                                                  |
+| 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                                                                                 | `Medium`   | [C++](./cpp/210.Course_Schedule_II.cpp)                                                      |
+| 211 | [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)                                 | `Medium`   | [C++](./cpp/211.Add_and_Search_Word_Data_structure_design.cpp)                               |
+| 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/)                                                                                         | `Hard`     | [C++](./cpp/212.Word_Search_II.cpp)                                                          |
+| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/)                                                                                       | `Medium`   | [C++](./cpp/213.House_Robber_II.cpp)                                                         |
+| 214 | [Shortest Palindrome](./cpp/https://leetcode.com/problems/shortest-palindrome/)                                                                         | `Hard`     | [C++](./cpp/214.Shortest_Palindrome.cpp)                                                     |
+| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)                                                       | `Medium`   | [C++]( ./cpp/215.Kth_Largest_Element_in_an_Array.cpp)                                        |
+| 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)                                                                               | `Medium`   | [C++](./cpp/216.Combination_Sum_III.cpp)                                                     |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                                                                                 | `Easy`     | [C++](./cpp/217.Contains_Duplicate.cpp)                                                      |
+| 218 | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)                                                                               | `Hard`     |                                                                                              |
+| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)                                                                           | `Easy`     | [C++](./cpp/219.Contains_Duplicate_II.cpp)                                                   |
+| 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)                                                                         | `Medium`   | [C++](./cpp/220.Contains_Duplicate_III.cpp )                                                 |
+| 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/)                                                                                         | `Medium`   | [C++](./cpp)                                                                                 |
+| 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)                                                                   | `Medium`   | [C++](./cpp/222.Count_Complete_Tree_Nodes.cpp)                                               |
+| 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/)                                                                                         | `Medium`   | [C++](./cpp/223.Rectangle_Area.cpp)                                                          |
+| 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/)                                                                                     | `Hard`     | [C++](./cpp/224.Basic_Calculator.cpp)                                                        |
 
 ## Database
 
@@ -206,133 +226,7 @@
 | 262 | [Trips and Users](https://leetcode.com/problems/trips-and-users/)                                                       | `Hard`     | [sql](./sql/262.Trips_and_Users.sql)                            |
 | 595 | [Big Countries](https://leetcode.com/problems/big-countries/)                                                           | `Easy`     | [sql](./sql/595.Big_Countries.sql)                              |
 | 596 | [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/)                             | `Easy`     | [sql](./sql/596.Classes_More_Than_5_Students.sql)               |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| 601 | [Human Traffic of Stadium](https://leetcode.com/problems/human-traffic-of-stadium/)                                     | `Hard`     | [sql](./sql/601.Human_Traffic_of_Stadium.sql)                   |
+| 620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)                                                   | `Easy`     | [sql](./sql/620.Not_Boring_Movies.sql)                          |
+| 626 | [Exchange Seats](https://leetcode.com/problems/exchange-seats/)                                                         | `Medium`   | [sql](./sql/626.Exchange_Seats.sql)                             |
+| 627 | [Swap Salary](https://leetcode.com/problems/swap-salary/)                                                               | `Easy`     | [sql](./sql/627.Swap_Salary.sql)                                |
