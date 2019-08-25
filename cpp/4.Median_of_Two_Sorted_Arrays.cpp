@@ -21,9 +21,11 @@ public:
     	if(a == 0)	return rp[k-1];
     	if(b == 0)	return lp[k-1];
     	if(k == 1)	return min(lp[0], rp[0]);
-    	int i = min(a, k / 2);
+    	
+        int i = min(a, k / 2);
     	int j = min(b, k / 2);
-    	if(lp[i-1] > rp[j-1]) 
+    	
+        if(lp[i-1] > rp[j-1]) 
     		return getKth(lp, a, rp+j, b-j, k-j);
     	else
     		return getKth(lp+i, a-i, rp, b, k-i);
