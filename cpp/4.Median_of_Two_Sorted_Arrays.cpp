@@ -26,7 +26,7 @@ public:
     	int j = min(b, k / 2);
     	
         if(lp[i-1] > rp[j-1]) 
-    		return getKth(lp, a, rp+j, b-j, k-j);
+    		return getKth(lp, a, rp+j, b-j, k-j);   
     	else
     		return getKth(lp+i, a-i, rp, b, k-i);
     }

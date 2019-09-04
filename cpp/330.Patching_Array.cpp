@@ -1,7 +1,7 @@
 class Solution {
 public:
     int minPatches(vector<int>& nums, int n) {
-    	// 【0, rightSide)
+    	// [0, rightSide)
         long long rightSide = 1;
         int addNums = 0;
         for(auto num : nums) {
@@ -23,7 +23,7 @@ public:
 class Solution {
 	public:
 		int minPatches(vector<int>& nums, int n) {
-		// 【0, rightSide)
+		// [0, rightSide)
 		long long rightSide = 1;
 		int addNums = 0;
 		int i = 0;
