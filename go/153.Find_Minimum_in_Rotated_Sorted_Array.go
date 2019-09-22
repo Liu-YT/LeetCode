@@ -7,7 +7,7 @@ func findMin(nums []int) int {
 			end = mid
 			continue
 		}
-		start += 1
+		start = mid + 1
 	}
 	return minNum
 }
